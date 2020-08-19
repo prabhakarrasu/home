@@ -1,0 +1,10 @@
+{% extends 'house/base.html' %}
+
+{% block content %}
+
+    {% for building in buildings %}
+        {{ building }}
+        <br>
+    {% endfor %}
+
+{% endblock %}

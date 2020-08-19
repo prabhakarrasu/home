@@ -1,0 +1,9 @@
+{% extends 'house/base.html' %}
+
+{% block content %}
+
+    {% for teneant in teneants %}
+        <h1>{{ teneant }}</h1>
+    {% endfor %}
+
+{% endblock %}
